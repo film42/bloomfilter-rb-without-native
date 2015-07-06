@@ -1,1 +1,1 @@
-require 'bloomfilter-rb'
+require 'bloomfilter-rb-without-native'
