@@ -3,15 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "bloomfilter/version"
 
 Gem::Specification.new do |s|
-  s.name        = "bloomfilter-rb"
+  s.name        = "bloomfilter-rb-without-native"
   s.version     = BloomFilter::VERSION
-  s.platform    = Gem::Platform::RUBY
   s.authors     = ["Garrett Thornburg"]
   s.email       = ["film42@gmail.com"]
-  s.homepage    = "http://github.com/igrigorik/bloomfilter-rb"
-  s.summary     = "Counting Bloom Filter implemented in Ruby"
+  s.homepage    = "https://github.com/film42/bloomfilter-rb-without-native/"
+  s.summary     = "Counting Bloom Filter implemented in Ruby (fork without native code)"
   s.description = s.summary
-  s.rubyforge_project = "bloomfilter-rb"
 
   s.add_dependency "redis"
   s.add_development_dependency "rspec", ">= 3"
