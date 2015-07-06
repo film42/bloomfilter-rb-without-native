@@ -1,6 +1,7 @@
+THIS IS A FORK OF https://github.com/igrigorik/bloomfilter-rb
+
 # BloomFilter(s) in Ruby
 
-- Native (MRI/C) counting bloom filter
 - Redis-backed getbit/setbit non-counting bloom filter
 - Redis-backed set-based counting (+TTL) bloom filter
 
